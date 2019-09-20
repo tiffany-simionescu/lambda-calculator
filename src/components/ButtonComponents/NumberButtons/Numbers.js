@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {numbers, operators, specials} from '../../../data.js';
+import {numbers} from '../../../data.js';
 
 //import any components needed
 // example of import from data.js. Note all the ../   This is how we move through folders. 
