@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import {specials} from '../../../data.js';
+import SpecialButton from './SpecialButton.js';
 
 //import any components needed
 
@@ -15,7 +16,9 @@ const Specials = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
        {specialState.map((specials, index) => {
+         return (
         <SpecialButton specials={specials} key={index} />
+         );
       })}
     </div>
   );
