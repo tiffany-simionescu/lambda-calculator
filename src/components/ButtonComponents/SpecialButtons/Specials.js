@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {specials} from '../../../data.js';
 import SpecialButton from './SpecialButton.js';
 
